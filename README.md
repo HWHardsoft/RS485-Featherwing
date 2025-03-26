@@ -1,7 +1,7 @@
 # RS485-Featherwing
 Here you will find various demo programs in C++ (Arduino) or Python for our [RS422 / RS485 Feather Wing](https://www.hwhardsoft.de/english/projects/rs485-featherwing/)
 
-![RS485 Featherwing](https://hackaday.io/project/202727/gallery#bda9a197a470563a6d982e26367f9188)
+![RS485 Featherwing]()
 
 
 ## Arduino MODBUS RTU
