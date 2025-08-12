@@ -12,6 +12,11 @@ These examples use the libraries:
 
 from Vishnu Mohanan (CIRCUITSTATE Electronics LLP).
 
+## Circuit Python MODBUS RTU
+Please copy the files from the lib folder to the lib subfolder on your CircuitPython device. Replace the code.py file in the CircuitPython device with the new code.py. 
+
+(based on pyCom Modbus lib) 
+
 
 ## License
 
