@@ -12,8 +12,14 @@ These examples use the libraries:
 
 from Vishnu Mohanan (CIRCUITSTATE Electronics LLP).
 
+A detailed [tutorial](https://www.hackster.io/hartmut-wendt/modbus-rtu-with-feather-boards-56500f) on using the RS485 Wing for Modbus can be found at Hackster.io.
+
+
+
 ## Circuit Python MODBUS RTU
 Please copy the files from the lib folder to the lib subfolder on your CircuitPython device. Replace the code.py file in the CircuitPython device with the new code.py. 
+
+A detailed [tutorial](https://www.hackster.io/hartmut-wendt/modbus-rtu-with-feather-boards-56500f) on using the RS485 Wing for Modbus can be found at Hackster.io.
 
 (based on pyCom Modbus lib) 
 
