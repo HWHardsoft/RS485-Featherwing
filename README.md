@@ -3,6 +3,8 @@ Here you will find various demo programs in C++ (Arduino) or Python for our [RS4
 
 ![RS485 Featherwing](https://cdn.hackaday.io/images/2570431742991238794.jpg)
 
+A detailed [tutorial](https://www.hackster.io/hartmut-wendt/modbus-rtu-with-feather-boards-56500f) on using the RS485 Wing for Modbus can be found at Hackster.io.
+
 
 ## Arduino MODBUS RTU
 
@@ -12,16 +14,20 @@ These examples use the libraries:
 
 from Vishnu Mohanan (CIRCUITSTATE Electronics LLP).
 
-A detailed [tutorial](https://www.hackster.io/hartmut-wendt/modbus-rtu-with-feather-boards-56500f) on using the RS485 Wing for Modbus can be found at Hackster.io.
 
 
 
 ## Circuit Python MODBUS RTU
 Please copy the files from the lib folder to the lib subfolder on your CircuitPython device. Replace the code.py file in the CircuitPython device with the new code.py. 
 
-A detailed [tutorial](https://www.hackster.io/hartmut-wendt/modbus-rtu-with-feather-boards-56500f) on using the RS485 Wing for Modbus can be found at Hackster.io.
+(based on pyCom Modbus lib) 
+
+
+## Micro Python MODBUS RTU
+Please copy the files from the uModBus folder to the uModBus subfolder on your MicroPython device. Copy the main.py file in the directory of your device. 
 
 (based on pyCom Modbus lib) 
+
 
 
 ## License
