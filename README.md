@@ -8,13 +8,13 @@ A detailed [tutorial](https://www.hackster.io/hartmut-wendt/modbus-rtu-with-feat
 
 ## Arduino MODBUS RTU
 
-These examples use the libraries:
-- [CSE_ArduinoRS485](https://github.com/CIRCUITSTATE/CSE_ArduinoRS485)
-- [CSE-ModbusRTU](https://github.com/CIRCUITSTATE/CSE_ModbusRTU)
+Since Arduino's own MODBUS libraries do not support either the ESP32 or the RS485 Wing, I tested various other libraries and came across the [ModbusRTUMaster](https://github.com/CMB27/ModbusRTUMaster) and [ModbusRTUSlave](https://github.com/CMB27/ModbusRTUSlave) libraries by C. M. Bulliner. Both libraries can be installed directly via the Arduino IDE. Please install with all dependencies. 
 
-from Vishnu Mohanan (CIRCUITSTATE Electronics LLP).
+![Library installation](https://github.com/HWHardsoft/MODBUS-RTU-with-Arduino-RS485-shield/blob/main/assets/install_cbs_modbus_libs.png)
 
+I have provided three code examples for MODBUS RTU. For the two programmes, ModbusRTU_Master and ModbusRTU_Slave, a pushbutton must be connected between pin 12 and GND in each case. You can then have two boards communicate with each other. One acts as the slave (server) and the other as the master (client). If you press the pushbutton on one board, the built-in LED on the other Feather board lights up.
 
+The third example programme shows how to control an external slave (in this case, a Waveshare Modbus RTU relay) using a Feather board as the master.  
 
 
 ## Circuit Python MODBUS RTU
