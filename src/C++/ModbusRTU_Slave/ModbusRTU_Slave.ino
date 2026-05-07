@@ -12,7 +12,7 @@
  *  S4: ON - ON - ON - ON
  * 
  * 
- * This example demonstrates  use the ModbusRTUMaster library (https://github.com/CMB27/ModbusRTUMaster) by  C. M. Bulliner
+ * This example demonstrates  use the Modbus RTU Slave library (https://github.com/CMB27/ModbusRTUSlave) by  C. M. Bulliner
  * 
  * 
  */ 
