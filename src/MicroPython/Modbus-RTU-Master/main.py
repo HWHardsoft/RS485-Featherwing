@@ -19,7 +19,8 @@ import time
 output_value = 0xFF00
 
 ######################### RTU SERIAL MODBUS #########################
-uart_id = 0x02
+# uart_id = 0x00	# RP2040
+uart_id = 0x02	#ESP32
 modbus_obj = Serial(uart_id, baudrate=9600)
 # you can specify pins for RX and TX as option
 #modbus_obj = Serial(uart_id, baudrate=9600, tx_pin=17, rx_pin=16)
